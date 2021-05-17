@@ -1,11 +1,12 @@
 _site
 public/*
 .sass-cache
-*/.jekyll-cache
+.jekyll-cache
 .jekyll-metadata
 vendor
 .idea
 
+!assets/css/bootstrap/vendor/_rfs.scss
 !*/.gitkeep
 !*/*/.gitkeep
 !*/*/*/.gitkeep
