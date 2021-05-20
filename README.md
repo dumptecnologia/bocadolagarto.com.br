@@ -8,5 +8,5 @@
 </p>
 
 # *# Boca do Lagarto - Casas de Aluguel*
-<a href="{{ site.baseurl }}/">bocadolagarto.com.br/</a>
+<a href="https://bocadolagarto.com.br">bocadolagarto.com.br</a>
  
