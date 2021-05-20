@@ -54,22 +54,22 @@
         categoria
         para ver mais </h3>
 
-    <div class="col-sm-4 box box-selected-photo active">
-        <a href="https://bocadolagarto.com.br/casas/1/" class="photo">
+    <div class="col-sm-4 box box-selected-photo {{ page.casa1 }}">
+        <a href="{{ site.baseurl }}/casas/1/" class="photo">
             <div>
                 <h4>Casa 1</h4>
             </div>
         </a>
     </div>
-    <div class="col-sm-4 box box-selected-photo ">
-        <a href="https://bocadolagarto.com.br/casas/2/" class="photo">
+    <div class="col-sm-4 box box-selected-photo  {{ page.casa2 }}">
+        <a href="{{ site.baseurl }}/casas/2/" class="photo">
             <div>
                 <h4>Casa 2</h4>
             </div>
         </a>
     </div>
-    <div class="col-sm-4 box box-selected-photo ">
-        <a href="https://bocadolagarto.com.br/casas/3/" class="photo">
+    <div class="col-sm-4 box box-selected-photo  {{ page.casa3 }}">
+        <a href="{{ site.baseurl }}/casas/3/" class="photo">
             <div>
                 <h4>Localização</h4>
             </div>
@@ -77,20 +77,17 @@
     </div>
     <div class="clearfix" style="margin-bottom: 50px"></div>
 
-    <p class="desc-casa">Cozinha completa, com panelas, louças, talheres, geladeira, fogão e
-        microondas. A casa dispõe de 1 banheiro, TV, Wifi, 2 quartos com camas de casal, ventiladores, colchão extra e
-        churrasqueira com área coberta. O terreno é amplo com capacidade para estacionar até 3 carros. Acomoda até 5
-        pessoas.</p>
+    <p class="desc-casa">{{ page.desc_casa }}</p>
     <div class="clearfix" style="margin-bottom: 20px"></div>
     <div id="w0" class="carousel">
         <ol class="carousel-indicators">
             <li class="" data-target="#w0" data-slide-to="0"></li>
-            <li data-target="#w0" data-slide-to="1" class=""></li>
+            <li data-target="#w0" data-slide-to="1" class="active"></li>
             <li data-target="#w0" data-slide-to="2" class=""></li>
             <li data-target="#w0" data-slide-to="3" class=""></li>
             <li data-target="#w0" data-slide-to="4" class=""></li>
             <li data-target="#w0" data-slide-to="5" class=""></li>
-            <li data-target="#w0" data-slide-to="6" class="active"></li>
+            <li data-target="#w0" data-slide-to="6" class=""></li>
             <li data-target="#w0" data-slide-to="7" class=""></li>
             <li data-target="#w0" data-slide-to="8" class=""></li>
             <li data-target="#w0" data-slide-to="9" class=""></li>
@@ -98,52 +95,52 @@
             <li data-target="#w0" data-slide-to="11" class=""></li>
         </ol>
         <div class="carousel-inner">
-            <div id="1.jpg" class="item" onclick=""><img
-                    src="https://bocadolagarto.com.br/imagens/website//casa-01/1.jpg">
+            <div id="1.jpg" class="item active" onclick=""><img
+                    src="{{ site.baseurl }}/assets/image/casa-01/1.jpg">
                 <div class="carousel-caption"></div>
             </div>
             <div id="16939300_1582711031743701_9185733667020281782_n.jpg" class="item" onclick=""><img
-                    src="https://bocadolagarto.com.br/imagens/website//casa-01/16939300_1582711031743701_9185733667020281782_n.jpg">
+                    src="{{ site.baseurl }}/assets/image/casa-01/16939300_1582711031743701_9185733667020281782_n.jpg">
                 <div class="carousel-caption"></div>
             </div>
             <div id="16939450_1582710975077040_3623618524624477037_n.jpg" class="item" onclick=""><img
-                    src="https://bocadolagarto.com.br/imagens/website//casa-01/16939450_1582710975077040_3623618524624477037_n.jpg">
+                    src="{{ site.baseurl }}/assets/image/casa-01/16939450_1582710975077040_3623618524624477037_n.jpg">
                 <div class="carousel-caption"></div>
             </div>
             <div id="16939486_1582711028410368_1790639524725291764_n.jpg" class="item" onclick=""><img
-                    src="https://bocadolagarto.com.br/imagens/website//casa-01/16939486_1582711028410368_1790639524725291764_n.jpg">
+                    src="{{ site.baseurl }}/assets/image/casa-01/16939486_1582711028410368_1790639524725291764_n.jpg">
                 <div class="carousel-caption"></div>
             </div>
             <div id="17103539_1582712395076898_1425890643340347775_n.jpg" class="item" onclick=""><img
-                    src="https://bocadolagarto.com.br/imagens/website//casa-01/17103539_1582712395076898_1425890643340347775_n.jpg">
+                    src="{{ site.baseurl }}/assets/image/casa-01/17103539_1582712395076898_1425890643340347775_n.jpg">
                 <div class="carousel-caption"></div>
             </div>
             <div id="17155221_1582712381743566_2510425869288178818_n.jpg" class="item" onclick=""><img
-                    src="https://bocadolagarto.com.br/imagens/website//casa-01/17155221_1582712381743566_2510425869288178818_n.jpg">
+                    src="{{ site.baseurl }}/assets/image/casa-01/17155221_1582712381743566_2510425869288178818_n.jpg">
                 <div class="carousel-caption"></div>
             </div>
-            <div id="17155731_1582711035077034_9050405143679194210_n.jpg" class="item active" onclick=""><img
-                    src="https://bocadolagarto.com.br/imagens/website//casa-01/17155731_1582711035077034_9050405143679194210_n.jpg">
+            <div id="17155731_1582711035077034_9050405143679194210_n.jpg" class="item" onclick=""><img
+                    src="{{ site.baseurl }}/assets/image/casa-01/17155731_1582711035077034_9050405143679194210_n.jpg">
                 <div class="carousel-caption"></div>
             </div>
             <div id="17190964_1582711015077036_2789734058894726035_n.jpg" class="item" onclick=""><img
-                    src="https://bocadolagarto.com.br/imagens/website//casa-01/17190964_1582711015077036_2789734058894726035_n.jpg">
+                    src="{{ site.baseurl }}/assets/image/casa-01/17190964_1582711015077036_2789734058894726035_n.jpg">
                 <div class="carousel-caption"></div>
             </div>
             <div id="2.jpg" class="item" onclick=""><img
-                    src="https://bocadolagarto.com.br/imagens/website//casa-01/2.jpg">
+                    src="{{ site.baseurl }}/assets/image/casa-01/2.jpg">
                 <div class="carousel-caption"></div>
             </div>
             <div id="20181221_152133.jpg" class="item" onclick=""><img
-                    src="https://bocadolagarto.com.br/imagens/website//casa-01/20181221_152133.jpg">
+                    src="{{ site.baseurl }}/assets/image/casa-01/20181221_152133.jpg">
                 <div class="carousel-caption"></div>
             </div>
             <div id="3.jpg" class="item" onclick=""><img
-                    src="https://bocadolagarto.com.br/imagens/website//casa-01/3.jpg">
+                    src="{{ site.baseurl }}/assets/image/casa-01/3.jpg">
                 <div class="carousel-caption"></div>
             </div>
             <div id="4.jpg" class="item" onclick=""><img
-                    src="https://bocadolagarto.com.br/imagens/website//casa-01/4.jpg">
+                    src="{{ site.baseurl }}/assets/image/casa-01/4.jpg">
                 <div class="carousel-caption"></div>
             </div>
         </div>
